@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <AnalogClock
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </AnalogClock>
+    <DigitalClock
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="50dp"
+        android:textSize="30sp">
+
+    </DigitalClock>
+    <TimePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TimePicker>
+</LinearLayout>
+<!--크로노 미터 -->
+<!--타임 피커 , 데이트 피커 , 캘린더-->
